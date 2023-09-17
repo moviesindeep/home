@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace, arial, helvetica, serif, sans-serif;
+}
+.banner{
+  background-image: url("img/banner.png");
+  background-attachment: fixed;
+  height: 100px;
+  width: 100%;
+}
+
+
+.border{
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 200px;
+  overflow: scroll;
+}
+.border img{
+  width: 100px;
+}
+.border button{
+  height: 50px;
+  width: 150px;
+  background-color: dodgerblue;
+  color: white;
+  border: 0px solid transparent;
+  cursor: pointer;
+  margin-left: 180%;
+  transition: 0.5s;
+  font-family: monospace, arial, serif, sans-serif, helvetica;
+}
+.border button:hover{
+  border: 5px solid deeppink;
+  background-color: deeppink;
+}
+.border button:active{
+  opacity: 0.5;
+}
+.border button:focus {
+  border: 5px solid deeppink;
+  background-color: deeppink;
+}
+.border h1{
+  font-family: monospace, arial, serif, sans-serif, helvetica;
+}
