@@ -1,0 +1,3 @@
+Render(2d_Mesh()):
+  2d_Mesh scene = 2d_Mesh(Coord_2(x,y));
+  scene = x(auto), y(auto);
